@@ -1,5 +1,5 @@
 
-Time Complexity : O(n)
+//Time Complexity : O(n)
 
 class Solution {
 public:
@@ -24,7 +24,9 @@ public:
 
 
 
-Using Recursion
+//Using Recursion
+//Time Complexity : O(logN)
+
 class Solution {
 public:
 
