@@ -1,7 +1,8 @@
 // Pass The Pillow
 
-
-// 1. Time Complexity : O(n)
+// First Method
+// Time Complexity : O(n)
+// Space Complexity : O(1)
 
 class Solution {
 public:
@@ -34,7 +35,9 @@ public:
 
 
 
-//2. Time Complexity : O(1)
+//Second Method 
+//Time Complexity : O(1)
+//Space Complexity : O(1)
 
 class Solution {
 public:

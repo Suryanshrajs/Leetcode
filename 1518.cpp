@@ -1,5 +1,6 @@
 
 //Time Complexity : O(n)
+//Space Comlexity : O(1)
 
 class Solution {
 public:
@@ -26,6 +27,7 @@ public:
 
 //Using Recursion
 //Time Complexity : O(logN)
+//Space Complexity : O(1)
 
 class Solution {
 public:
