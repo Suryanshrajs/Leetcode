@@ -6,6 +6,8 @@ class Solution {
 public:
     int findTheWinner(int n, int k) {
 
+
+        //agr n ki value 1 hai matlab kewal 1 hi value hai so last me to vhi bachegi koi erase hi nhi hogi
         if(n==1){
             return 1;
         }
