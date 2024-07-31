@@ -1,3 +1,9 @@
+//Space Complexity : O(n2)
+//Time Complexity : O(n2)
+
+
+
+
 class Solution {
 public:
     int WIDTH;
