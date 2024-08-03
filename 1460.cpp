@@ -64,5 +64,37 @@ public:
 
 
 
+//Time Complexity : O(n)
+//Space Complexity : O(n)
+
+
+
+
+
+class Solution {
+public:
+    bool canBeEqual(vector<int>& target, vector<int>& arr) {
+        
+        vector<int> ans(1001,0);
+
+        for(int i=0; i<arr.size(); i++){
+            ans[arr[i]]++;
+            ans[target[i]]--;
+        }
+    
+        for(int k = 0; k<ans.size(); k++){
+            if(ans[k]!=0){
+                return false;
+            }
+        }
+
+
+    return true;    
+    }
+};
+
+
+
+
 
 
